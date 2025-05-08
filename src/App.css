@@ -1,1 +1,8 @@
-
+body {
+  background-image: url('/samu-logo.png');
+  background-repeat: repeat;
+  background-position: center;
+  background-size: 16%;
+  background-color: rgba(255, 255, 255, 0.9);
+  background-blend-mode: overlay;
+}

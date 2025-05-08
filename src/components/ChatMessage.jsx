@@ -18,7 +18,7 @@ export function ChatMessage({ message }) {
       )}
       <div
         className={`rounded-lg px-4 py-2 max-w-[80%] ${
-          isUser ? "bg-[#044074] text-white" : "bg-gray-100 text-gray-800"
+          isUser ? "bg-[#044074] text-white" : "bg-[#044074] text-white"
         }`}
       >
         <p className="text-sm whitespace-pre-wrap">{message.content}</p>
