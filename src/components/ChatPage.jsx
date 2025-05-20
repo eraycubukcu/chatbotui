@@ -69,7 +69,7 @@ export default function ChatPage() {
       <PageHeader />
       <main className="flex min-h-screen max-h-screen flex-col items-center justify-between p-12 md:p-14">
         <div className="flex flex-col flex-1 z-10 w-full max-w-3xl ">
-          <div className="mt-8 flex h-[calc(100vh-120px)] flex-col justify-between rounded-lg border border-gray-300 shadow-sm">
+          <div className="mt-8 flex h-[calc(100vh-120px)] flex-col justify-between rounded-lg border border-gray-500 bg-white/60 shadow-sm">
             <div className="flex-1 overflow-y-auto p-4" ref={scrollAreaRef}>
               <div className="space-y-4">
                 {messages.map((message) => (

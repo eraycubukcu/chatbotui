@@ -8,7 +8,7 @@ export function PageHeader() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
-            <img src={logo} className="h-12 w-full"></img>
+            <a href="https://samsun.edu.tr/"><img src={logo} className="h-12 w-full"></img></a>
           </div>
         </div>
       </div>
